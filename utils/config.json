@@ -1,0 +1,147 @@
+{
+	"apiInfo": {
+		"api": "bitorsic portfolio api",
+		"version": "v1",
+		"basePath": "/v1",
+		"endpoints": [
+			"/about",
+			"/skills",
+			"/experience",
+			"/projects",
+			"/background",
+			"/contact"
+		]
+	},
+
+	"about": {
+		"name": "Yash Jaiswal",
+		"role": "Backend Engineer",
+		"location": "Ahilyanagar, Maharashtra",
+		"summary": {
+			"enjoys": "Building systems that actually make sense",
+			"examples": [
+				"Clean APIs",
+				"Services that scale without breaking",
+				"Codebases that stay easy to reason about"
+			]
+		}
+	},
+
+	"skills": {
+		"languagesAndFrameworks": {"JavaScript": "Node.js", "Go": "Fiber", "Python": "FastAPI" },
+		"databases": ["MongoDB", "PostgreSQL"],
+		"caching": "Redis",
+		"cloudAndDevOps": ["AWS", "Docker", "Linux"]
+	},
+
+	"experience": [{
+		"company": "Global Kartel",
+		"role": "Associate Backend Developer",
+		"location": "Pune",
+		"from": "Jul 2025",
+		"to": "Present",
+		"description": [
+			"Maintain backend for 4k users; backend dev for upcoming merch platform",
+			"Built fitness product backend from scratch, designing data models and APIs",
+			"Implemented RAG-based semantic search using vector embeddings"
+		]
+	}, {
+		"company": "Global Kartel",
+		"role": "Backend Developer Intern",
+		"location": "Pune",
+		"from": "Dec 2024",
+		"to": "Apr 2025",
+		"description": [
+			"Built data dashboards and automated PDF workflows in Node.js",
+			"Integrated AWS S3, Gemini API, and webhook-based payments",
+			"Contributed to Go (Fiber + GORM) migration and auth improvements"
+		]
+	}, {
+		"company": "PearlThoughts",
+		"role": "DevOps Engineer Intern",
+		"location": "Remote",
+		"from": "Oct 2023",
+		"to": "Nov 2023",
+		"description": [
+			"Provisioned AWS and Azure VMs for testing environments",
+			"Automated infrastructure using Terraform",
+			"Supported CI/CD setup with Jenkins"
+		]
+	}],
+
+	"projects": [{
+		"title": "Slack Bot with Streaming AI & Observability",
+		"techStack": ["Go", "Gemini API", "OpenTelemetry", "Docker"],
+		"links": ["https://github.com/bitorsic/chat-relay"],
+		"when": "Jun 2025",
+		"description": [
+			"Built Slack bot streaming AI responses via SSE, handling DMs and @mentions",
+			"Implemented end-to-end tracing using OpenTelemetry",
+			"Containerized with Docker for scalable deployment"
+		]
+	}, {
+		"title": "Secure Chat App with AI Spam & Phishing Detection",
+		"techStack": ["MongoDB", "React.js", "Node.js", "FastAPI"],
+		"links": [
+			"https://github.com/Prathu56/e2ee-chat-app",
+			"https://github.com/harshadparihar/spam-phishing-fastapi"
+		],
+		"when":"Apr 2025",
+		"description": [
+			"Built E2E-encrypted chat platform via ECDH key exchange and AES encryption",
+			"Developed FastAPI service using AI models for spam & phishing detection",
+			"Implemented secure API key management and access controls"
+		]
+	}, {
+		"title": "Video Conferencing Platform",
+		"techStack": ["Go", "React.js", "TypeScript"],
+		"links": ["https://konfrens.onrender.com", "https://github.com/bitorsic/konfrens"],
+		"when":"Oct 2024",
+		"description": [
+			"Enabled peer-to-peer video calls using WebRTC with custom signaling logic",
+			"Implemented real-time room management and chat via WebSockets",
+			"Designed signaling logic to handle session lifecycle and connection state"
+		]
+	}],
+
+	"education": [{
+		"course": "BE (Bachelor of Engineering) - Computer Engineering",
+		"institute": "P.E.S. Modern College of Engineering",
+		"from": "2022",
+		"to": "2025",
+		"location": "Pune"
+	}, {
+		"course": "Diploma in Computer Engineering",
+		"institute": "MIT Polytechnic",
+		"from": "2020",
+		"to": "2022",
+		"location": "Pune"
+	}],
+
+	"certificates": [{
+		"title": "AZ-900: Microsoft Azure Fundamentals",
+		"link": "https://www.credly.com/badges/8ed5d869-4541-4872-b38d-fce2ab96adaf"
+	}, {
+		"title": "Practical Ethical Hacking - TCM Security",
+		"link": "https://drive.google.com/file/d/1YT8_1_kpVMpF5JYa8jgeWxTz7zJcpz5q"
+	}],
+
+	"volunteering": [{
+		"club": "GDSC PESMCOE",
+		"role": "Cloud Lead",
+		"from": "Aug 2023",
+		"to": "Apr 2024"
+	}, {
+		"club": "PESMCOE ACM Student Chapter",
+		"role": "Technical Team Member",
+		"from": "Mar 2023",
+		"to": "Apr 2024"
+	}],
+
+	"contact": {
+		"email": "yashjaiswal.cse@gmail.com",
+		"LinkedIn": "https://linkedin.com/in/bitorsic",
+		"GitHub": "https://github.com/bitorsic",
+		"dev.to": "https://dev.to/bitorsic"
+	}
+}
