@@ -4,12 +4,12 @@
 		"version": "v1",
 		"basePath": "/v1",
 		"endpoints": [
-			"/about",
-			"/skills",
-			"/experience",
-			"/projects",
-			"/background",
-			"/contact"
+			{ "method": "GET", "path": "/about" },
+			{ "method": "GET", "path": "/skills" },
+			{ "method": "GET", "path": "/experience" },
+			{ "method": "GET", "path": "/projects" },
+			{ "method": "GET", "path": "/background" },
+			{ "method": "GET", "path": "/contact" }
 		]
 	},
 
