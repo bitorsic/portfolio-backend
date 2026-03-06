@@ -119,6 +119,9 @@
 	}],
 
 	"certificates": [{
+		"title": "Backend Engineering Launchpad - Airtribe",
+		"link": "https://airtribe.live/backend-engineering/certificate/Z7P5G284A1KH"
+	}, {
 		"title": "AZ-900: Microsoft Azure Fundamentals",
 		"link": "https://www.credly.com/badges/8ed5d869-4541-4872-b38d-fce2ab96adaf"
 	}, {
