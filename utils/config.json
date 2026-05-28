@@ -28,7 +28,7 @@
 	},
 
 	"skills": {
-		"languagesAndFrameworks": {"JavaScript": "Node.js", "Go": "Fiber", "Python": "FastAPI" },
+		"languagesAndFrameworks": { "TypeScript": "Node.js", "Go": "Fiber", "Python": "FastAPI" },
 		"databases": ["MongoDB", "PostgreSQL"],
 		"caching": "Redis",
 		"cloudAndDevOps": ["AWS", "Docker", "Linux"]
